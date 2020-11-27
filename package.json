@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +23,7 @@
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "webpack-dev-server": "^3.11.0"
   }
 }
