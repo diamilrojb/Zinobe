@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM, { render } from 'react-dom';
-import RetoZinobe from './components/RetoZinobe';
-import HelloWord from './components/RetoZinobe';
+import App from './containers/App';
 
-ReactDOM.render(<RetoZinobe />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
 

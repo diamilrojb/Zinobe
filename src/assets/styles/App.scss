@@ -1,5 +1,27 @@
-body {
+* {
     margin: 0;
-    background-color: #222222;
-    color: aqua;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%; 
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    grid-template-areas:
+        "menu"
+        "logo"
+        "main"
+        "footer";     
 }

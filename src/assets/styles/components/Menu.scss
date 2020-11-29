@@ -1,0 +1,28 @@
+.nav {
+    
+    background-color: #0c4459;
+    height: 4.8rem;
+}
+
+.nav__menu {
+    grid-area: menu;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.nav__menu--home {
+    color: white;
+    margin-right: 1rem;
+}
+
+.nav__menu--usuario {
+    display: contents;
+    margin-right: 1rem;
+}
+
+.nav__menu--foto {
+    width: 40px;
+}

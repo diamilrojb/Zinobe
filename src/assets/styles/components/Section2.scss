@@ -1,0 +1,24 @@
+.main-section2 {
+    grid-area: section2;
+    background-color: rgba(250, 250, 250, 0.3);
+    height: 26.5rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    /* background-position: center; */
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.main-section2__canjear {
+    background-image: url(../image/Recurso16.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 23rem;   
+}
+
+.main-section2__cargar {
+    background-image: url(../image/Recurso17.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 23rem;
+}

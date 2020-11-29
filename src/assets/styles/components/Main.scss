@@ -1,0 +1,18 @@
+.main-img {
+    background-image: url(../image/Recurso26.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 55.2rem; */
+    background-attachment: fixed;
+    grid-area: main;
+    background-color: #0c3559;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "section1"
+        "section2"
+        "section3"
+        "section4"
+        "section6";
+}
