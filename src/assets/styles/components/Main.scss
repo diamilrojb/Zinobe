@@ -1,9 +1,14 @@
-.main-img {
-    background-image: url(../image/Recurso26.png);
+.main {
+     background-image: url(../../../../image/Recurso26.png);
     background-repeat: no-repeat;
     background-position: center;
     /* height: 55.2rem; */
     background-attachment: fixed;
+    //background-color: rebeccapurple;
+    margin: 0 auto;
+}
+
+.main-img {
     grid-area: main;
     background-color: #0c3559;
     display: grid;
