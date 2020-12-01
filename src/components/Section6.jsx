@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../assets/styles/components/Section6.scss';
+import '../assets/styles/components/Section6.scss';
 
 const Section6 = () => (
   <section className='main-section6'>

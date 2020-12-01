@@ -1,16 +1,15 @@
 .main {
-     background-image: url(../../../../image/Recurso26.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* height: 55.2rem; */
+    // background-image: url(../../../../image/Recurso26.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
     background-attachment: fixed;
-    //background-color: rebeccapurple;
-    margin: 0 auto;
+    background-color: #0c3559;
+    // background-attachment: fixed;
+    // margin: 0 auto;
 }
 
 .main-img {
     grid-area: main;
-    background-color: #0c3559;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
