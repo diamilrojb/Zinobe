@@ -1,31 +1,42 @@
 .main-section1 {
-    grid-area: section1;
+    // grid-area: section1;
+    // display: grid; 
+    // grid-template-columns: 35% 65%;
     background-color: rgba(250, 250, 250, 0.3);
     height: 26.5rem;
     border-radius: 2rem;
     margin: 2rem;
     /* background-position: center;*/
-    display: grid; 
-    grid-template-columns: 35% 65%;
+    display: flex;
+    justify-content: flex-start;
+    
+    
 }
 
 .main-section1__user--img {
-    background-image: url(../image/Recurso9.png); 
-    background-repeat: no-repeat;
-    background-position: -2rem -2rem;
-    background-size: 15rem;
+    // background-image: url(../../../../image/Recurso9.png); 
+    // background-repeat: no-repeat;
+    // background-position: -2rem -2rem;
+    width: 15rem;
+    margin: 0;  
+}
+
+.main-section1__user{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .main-section1__user--data {
     font-size: 2rem;
-    margin-top: 2rem;
     font-weight: bold;
+    padding: 0;
 }
 
 .main-section1__user--gamification {
     font-size: 2rem;
-    margin-left: 3rem;
     font-weight: bold;
+    margin-top: 3rem;
 }
 
 .main-section1__user--gamification p{

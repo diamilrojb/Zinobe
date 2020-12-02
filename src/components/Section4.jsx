@@ -1,10 +1,10 @@
 import React from 'react';
 import '../assets/styles/components/Section4.scss';
 
-const Section4 = () => (
+const Section4 = ({ titleRoutes }) => (
   <section className='main-section4'>
-    <div className='main-section4__rutas'>
-      <h2>RUTAS DE CRECIMIENTO</h2>
+    <div>
+      <h2>{titleRoutes}</h2>
     </div>
   </section>
 );

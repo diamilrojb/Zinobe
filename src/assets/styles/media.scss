@@ -1,0 +1,50 @@
+@media only screen and (min-width: 768px) {
+    .main-img {
+        background-attachment: fixed;
+        background-color: #0c3559;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "section1 section2"
+        "section3 section4"
+        "section5 section6"
+        "section7 section8";
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 970px) {
+    body {
+        display: grid;
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: 2fr;
+        grid-template-areas:
+            "menu2 menu menu2"
+            "logo2 logo logo2"
+            "main2 main main2"
+            "footer2 footer footer2";     
+    }
+
+    .menu2 .logo2 .main2 .footer2 {
+        background-color: #0c3559;
+    }
+    
+
+    .main-img {
+        background-attachment: fixed;
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        'section1 section2 section3'
+        'section4 section5 section6'
+        'section7 section8 section8';
+        justify-content: center;
+        align-items: center;
+               
+    }
+    
+}

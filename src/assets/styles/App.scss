@@ -1,3 +1,7 @@
+@import "./Vars.scss";
+@import "./media.scss";
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 }
 
 html {
-    font-family: 'Quicksand', sans-serif;
+    font-family: $theme-font;
     font-size: 62.5%; 
     color: white;
 }

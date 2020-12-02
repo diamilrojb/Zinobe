@@ -1,18 +1,23 @@
-.main-img {
-    background-image: url(../image/Recurso26.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* height: 55.2rem; */
-    background-attachment: fixed;
-    grid-area: main;
+.main {
+    //background-image: url(../assets/static/Recurso26.png);
+    //background-repeat: no-repeat;
+    //background-position: center;
     background-color: #0c3559;
+    
+}
+
+.main-img {
+    grid-area: main;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: (8,1fr);
     grid-template-areas:
         "section1"
         "section2"
         "section3"
         "section4"
-        "section6";
+        "section5"
+        "section6"
+        "section7"
+        "section8";
 }
