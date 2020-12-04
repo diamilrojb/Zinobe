@@ -1,22 +1,16 @@
 .main-section1 {
-    // grid-area: section1;
-    // display: grid; 
-    // grid-template-columns: 35% 65%;
+    
     background-color: rgba(250, 250, 250, 0.3);
     height: 26.5rem;
     border-radius: 2rem;
     margin: 2rem;
-    /* background-position: center;*/
     display: flex;
     justify-content: flex-start;
-    
+    width: auto;
     
 }
 
 .main-section1__user--img {
-    // background-image: url(../../../../image/Recurso9.png); 
-    // background-repeat: no-repeat;
-    // background-position: -2rem -2rem;
     width: 15rem;
     margin: 0;  
 }

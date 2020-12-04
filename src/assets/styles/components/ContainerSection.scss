@@ -1,0 +1,13 @@
+.container-section {
+    grid-area: container-section;
+    display: grid;
+    grid-template-areas:
+        "section6"
+        "section6"
+        "section6";
+    height: 26.5rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    background-position: center;
+    background-color: rgba(250, 250, 250, 0.3);
+}
