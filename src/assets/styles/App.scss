@@ -19,9 +19,8 @@ a {
     cursor: pointer;
 }
 
-body {
+.App {
     display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: 4fr;
     grid-template-areas:
         "menu"

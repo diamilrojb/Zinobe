@@ -1,5 +1,14 @@
-.main-section6 {
+.contenedor-main__section6 {
     grid-area: section6;
+    display: grid;
+    grid-template-areas:
+        'item'
+        'item'
+        'item';
+}
+
+.main-section6 {
+    grid-area: item;
     background-color: rgba(250, 250, 250, 0.3);
     height: 9.2rem;
     border-radius: 2rem;
