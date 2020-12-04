@@ -1,9 +1,9 @@
 import React from 'react';
 import '../assets/styles/components/ContainerSection.scss';
 
-const ContainerSection = ({ Children }) => (
+const ContainerSection = ({ children }) => (
   <section className='container-section'>
-    {Children}
+    {children}
   </section>
 );
 
