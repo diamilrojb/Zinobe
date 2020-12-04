@@ -11,7 +11,6 @@ import Section6 from '../components/Section6';
 import Footer from '../components/Footer';
 import '../assets/styles/App.scss';
 
-
 const App = () => (
   <div className='App'>
     <Menu />
@@ -23,8 +22,8 @@ const App = () => (
       <Section4 titleRoutes='RUTAS DE CRECIMIENTO' />
       <Section4 titleRoutes='OBJETIVOS' />
       <ContainerSection>
-        <Section3 titleItem='RECOMPENSAS DISPONIBLES' />
-        <Section4 titleItem='RECOMPENSAS ADQUIRIDAS' />
+        <Section6 titleItem='RECOMPENSAS DISPONIBLES' />
+        <Section6 titleItem='RECOMPENSAS ADQUIRIDAS' />
         <Section6 titleItem='EVENTOS' />
       </ContainerSection>
     </Main>
