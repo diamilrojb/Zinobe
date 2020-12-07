@@ -12,6 +12,9 @@ const Menu = () => (
         <img className='nav__menu--foto' src={fotoUsuario} alt='Foto Usuario' />
         <span>Usuario</span>
       </li>
+      <li>
+        <a className='nav__menu--home' href='//#endregion'>Cerrar Sesión</a>
+      </li>
     </ul>
   </nav>
 );

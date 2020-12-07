@@ -11,13 +11,7 @@
 
 .main-img {
     grid-area: main;
-    display: grid;
-    grid-template-areas:
-        "section1"
-        "section2"
-        "section3"
-        "section4"
-        "section4"
-        "container-section";
+    display: flex;
+    flex-direction: column;
     
 }

@@ -1,11 +1,8 @@
 @media only screen and (min-width: 768px) {
   .main-img {
-    
-  grid-template-columns: repeat(2, 2fr);
+  display: grid;  
+  grid-template-columns: repeat(2, auto);
   grid-template-rows: auto;
-  grid-gap: 20px;
-    
-    
   }
 }
 
@@ -19,9 +16,8 @@
   }
 
   .main-img {
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto;  
     
-    grid-template-areas:
-      "section1 section3 section2"
-      "section4 section4 container-section";
   }
 }
