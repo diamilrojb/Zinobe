@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from '../components/Menu';
 import Logo from '../components/Logo';
+
 import Main from '../components/Main';
 import Section1 from '../components/Section1';
 import Section2 from '../components/Section2';
@@ -10,10 +11,10 @@ import ContainerSection from '../components/ContainerSection';
 import Section6 from '../components/Section6';
 import EquipoSec1 from '../components/EquipoSec1';
 import Footer from '../components/Footer';
-import '../assets/styles/App.scss';
+import '../assets/styles/Usuario.scss';
 
-const App = () => (
-  <div className='App'>
+const AdmUsuario = () => (
+  <div className='AdmUsuario'>
     <Menu />
     <Logo />
     <Main>
@@ -41,4 +42,4 @@ const App = () => (
   </div>
 );
 
-export default App;
+export default AdmUsuario;

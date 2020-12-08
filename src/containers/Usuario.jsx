@@ -12,33 +12,35 @@ import EquipoSec1 from '../components/EquipoSec1';
 import Footer from '../components/Footer';
 import '../assets/styles/Usuario.scss';
 
-const Usuario = () => (
-  <div className='Usuario'>
-    <Menu />
-    <Logo />
-    <Main>
-      <Section1 />
-      <Section3 titleGraficos='GRAFICOS DESEMPEÑO' />
-      <Section2 />
-      <Section4 titleRoutes='RUTAS DE CRECIMIENTO' />
-      <Section4 titleRoutes='OBJETIVOS' />
-      <ContainerSection>
-        <Section6 titleItem='RECOMPENSAS DISPONIBLES' />
-        <Section6 titleItem='RECOMPENSAS ADQUIRIDAS' />
-        <Section6 titleItem='EVENTOS' />
-      </ContainerSection>
-      <EquipoSec1 />
-      <Section3 titleGraficos='GRAFICOS DESEMPEÑO' />
-      <Section4 titleRoutes='INTEGRANTES EQUIPO' />
-      <Section4 titleRoutes='OBJETIVOS' />
-      <ContainerSection>
-        <Section6 titleItem='RECOMPENSAS DISPONIBLES' />
-        <Section6 titleItem='RECOMPENSAS ADQUIRIDAS' />
-        <Section6 titleItem='EVENTOS' />
-      </ContainerSection>
-    </Main>
-    <Footer />
-  </div>
-);
+const Usuario = () => {
+  return (
+    <div className='Usuario'>
+      <Menu />
+      <Logo />
+      <Main>
+        <Section1 />
+        <Section3 titleGraficos='GRAFICOS DESEMPEÑO' />
+        <Section2 />
+        <Section4 titleRoutes='RUTAS DE CRECIMIENTO' />
+        <Section4 titleRoutes='OBJETIVOS' />
+        <ContainerSection>
+          <Section6 titleItem='RECOMPENSAS DISPONIBLES' />
+          <Section6 titleItem='RECOMPENSAS ADQUIRIDAS' />
+          <Section6 titleItem='EVENTOS' />
+        </ContainerSection>
+        <EquipoSec1 />
+        <Section3 titleGraficos='GRAFICOS DESEMPEÑO' />
+        <Section4 titleRoutes='INTEGRANTES EQUIPO' />
+        <Section4 titleRoutes='OBJETIVOS' />
+        <ContainerSection>
+          <Section6 titleItem='RECOMPENSAS DISPONIBLES' />
+          <Section6 titleItem='RECOMPENSAS ADQUIRIDAS' />
+          <Section6 titleItem='EVENTOS' />
+        </ContainerSection>
+      </Main>
+      <Footer />
+    </div>
+  );
+};
 
 export default Usuario;
