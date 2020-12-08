@@ -3,6 +3,7 @@
   display: grid;  
   grid-template-columns: repeat(2, auto);
   grid-template-rows: auto;
+  justify-content: center;
   }
 }
 
@@ -11,13 +12,27 @@
     background-color: #0c4459;
   }
 
-  .App {
-    padding: 0 19rem;
+  // .App {
+  //   padding: 0 19rem;
+  // }
+
+  .nav__menu {
+  margin-right: 19rem;
   }
 
+  .section-logo {
+  padding-left: 19rem;
+}
+
+  .main {
+  margin-left: 19rem;
+  margin-right: 19rem;
+}
+  
   .main-img {
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto;  
     
   }
+
 }

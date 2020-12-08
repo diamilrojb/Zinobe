@@ -19,7 +19,7 @@ const EquipoSec1 = () => (
         <p>PUNTOS GASTADOS </p>
       </div>
       <a href='//#endregion'>
-        <img className='main-section2__canjear' src={canjear} alt='Canjear Puntos' />
+        <img className='.main-equipoSec1__canjear' src={canjear} alt='Canjear Puntos' />
       </a>
     </div>
   </section>
