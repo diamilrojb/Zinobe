@@ -1,0 +1,40 @@
+.overLay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.popup {
+    background: #f8efef;
+    box-shadow: 0rem 0rem 0.5rem 0rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    padding: 2rem;
+    text-align: center;
+    height: 100%;
+}
+
+.popup .btn__cerrar {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    display: block;
+    text-align: right;
+    color: #e00505;
+}
+
+.popup h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #0c4559;
+}
+
+.contenedorPuntos {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+}

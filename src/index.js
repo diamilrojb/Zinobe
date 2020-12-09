@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM, { render } from 'react-dom';
-import Usuario from './containers/Usuario';
+import App from './routes/App';
 
-ReactDOM.render(<Usuario />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
 

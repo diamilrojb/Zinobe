@@ -1,7 +1,6 @@
 import React from 'react';
 import Menu from '../components/Menu';
 import Logo from '../components/Logo';
-
 import Main from '../components/Main';
 import Section1 from '../components/Section1';
 import Section2 from '../components/Section2';
@@ -11,35 +10,40 @@ import ContainerSection from '../components/ContainerSection';
 import Section6 from '../components/Section6';
 import EquipoSec1 from '../components/EquipoSec1';
 import Footer from '../components/Footer';
-import '../assets/styles/Usuario.scss';
+import '../assets/styles/AdmUsuarios.scss';
 
-const AdmUsuario = () => (
-  <div className='AdmUsuario'>
-    <Menu />
-    <Logo />
-    <Main>
-      <Section1 />
-      <Section3 titleGraficos='GRAFICOS DESEMPEÑO' />
-      <Section2 />
-      <Section4 titleRoutes='RUTAS DE CRECIMIENTO' />
-      <Section4 titleRoutes='OBJETIVOS' />
-      <ContainerSection>
-        <Section6 titleItem='RECOMPENSAS DISPONIBLES' />
-        <Section6 titleItem='RECOMPENSAS ADQUIRIDAS' />
-        <Section6 titleItem='EVENTOS' />
-      </ContainerSection>
-      <EquipoSec1 />
-      <Section3 titleGraficos='GRAFICOS DESEMPEÑO' />
-      <Section4 titleRoutes='INTEGRANTES EQUIPO' />
-      <Section4 titleRoutes='OBJETIVOS' />
-      <ContainerSection>
-        <Section6 titleItem='RECOMPENSAS DISPONIBLES' />
-        <Section6 titleItem='RECOMPENSAS ADQUIRIDAS' />
-        <Section6 titleItem='EVENTOS' />
-      </ContainerSection>
-    </Main>
-    <Footer />
-  </div>
-);
+const AdmUsuarios = () => {
+  return (
+    <div className='AdmUsuarios'>
+      <Menu />
+      <Logo />
+      <Main>
+        <button className='button__editar' type='button'>EDITAR</button>
+        <button className='button__editar' type='button'>GUARDAR</button>
+        <button className='button__editar' type='button'>ELIMINAR</button>
+        <Section1 />
+        <Section3 titleGraficos='GRAFICOS DESEMPEÑO' />
+        <Section2 />
+        <Section4 titleRoutes='RUTAS DE CRECIMIENTO' />
+        <Section4 titleRoutes='OBJETIVOS' />
+        <ContainerSection>
+          <Section6 titleItem='RECOMPENSAS DISPONIBLES' />
+          <Section6 titleItem='RECOMPENSAS ADQUIRIDAS' />
+          <Section6 titleItem='EVENTOS' />
+        </ContainerSection>
+        <EquipoSec1 />
+        <Section3 titleGraficos='GRAFICOS DESEMPEÑO' />
+        <Section4 titleRoutes='INTEGRANTES EQUIPO' />
+        <Section4 titleRoutes='OBJETIVOS' />
+        <ContainerSection>
+          <Section6 titleItem='RECOMPENSAS DISPONIBLES' />
+          <Section6 titleItem='RECOMPENSAS ADQUIRIDAS' />
+          <Section6 titleItem='EVENTOS' />
+        </ContainerSection>
+      </Main>
+      <Footer />
+    </div>
+  );
+};
 
-export default AdmUsuario;
+export default AdmUsuarios;
