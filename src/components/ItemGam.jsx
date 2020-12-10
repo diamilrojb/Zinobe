@@ -1,13 +1,12 @@
 import React from 'react';
-import ItemGam from '../assets/styles/components/ItemGam.scss';
+import '../assets/styles/components/ItemGam.scss';
 
-const ItemGam = ({ descriptionGam, valorGam }) => (
+const ItemGam = ({ titleGam, descriptionGam, valorGam }) => (
   <div>
-    <button type='button'> </button>
-    <p>
+    <button type='button' className='buttonGam'>
+      {valorGam}
       {descriptionGam}
-      <button type='button'>{valorGam}</button>
-    </p>
+    </button>
   </div>
 );
 

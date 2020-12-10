@@ -33,8 +33,13 @@
     color: #0c4559;
 }
 
-.contenedorPuntos {
+.contenedorItem {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(3, auto);
+}
+
+.item6 {
+    display: flex;
+    flex-direction: column;
 }
