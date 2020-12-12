@@ -2,7 +2,7 @@
   .main-img {
   display: grid;  
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: auto;
+  grid-template-rows: repeat(5, auto);
   justify-content: center;
   }
 }
@@ -27,8 +27,7 @@
   
   .main-img {
   grid-template-columns: repeat(3, auto);
-  grid-template-rows: auto;  
-    
+  grid-template-rows: repeat(5, auto);  
   }
 
 }

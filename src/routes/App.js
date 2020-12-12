@@ -1,18 +1,25 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Layout from '../components/Layout';
 import AdmUsuarios from '../containers/AdmUsuarios';
 import Usuario from '../containers/Usuario';
 import Puntos from '../components/Puntos';
 import Gamification from '../components/Gamification';
+import Login from '../components/Login';
+import Registro from '../components/Registro';
 
 const App = () => (
   <BrowserRouter>
-    <Switch>
-      <Route exact path='/' component={AdmUsuarios} />
-      <Route exact path='/Usuario' component={Usuario} />
-      <Route exact path='/Puntos' component={Puntos} />
-      <Route exact path='/Gamification' component={Gamification} />
-    </Switch>
+    <Layout>
+      <Switch>
+        <Route exact path='/' component={AdmUsuarios} />
+        <Route exact path='/Usuario' component={Usuario} />
+        <Route exact path='/Puntos' component={Puntos} />
+        <Route exact path='/Gamification' component={Gamification} />
+        <Route exact path='/Login' component={Login} />
+        <Route exact path='/Registro' component={Registro} />
+      </Switch>
+    </Layout>
   </BrowserRouter>
 );
 
