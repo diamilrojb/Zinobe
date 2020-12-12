@@ -3,10 +3,8 @@
     position: fixed;
     left: 0;
     right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .popup {
@@ -15,6 +13,7 @@
     border-radius: 0.3rem;
     padding: 2rem;
     text-align: center;
+    width: 120rem;
     height: 100%;
 }
 
@@ -40,6 +39,11 @@
 }
 
 .item6 {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+}
+
+.challenge {
+    color: #0c4559;
+    font-size: 2rem;
+    font-weight: bold;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/styles/components/ItemGam.scss';
 
-const ItemGam = ({ titleGam, descriptionGam, valorGam }) => (
+const ItemGam = ({ descriptionGam, valorGam }) => (
   <div>
     <button type='button' className='buttonGam'>
       {valorGam}
