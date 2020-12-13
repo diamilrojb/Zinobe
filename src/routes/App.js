@@ -6,7 +6,7 @@ import Usuario from '../containers/Usuario';
 import Puntos from '../components/Puntos';
 import Gamification from '../components/Gamification';
 import Login from '../containers/Login';
-import Registro from '../containers/Registro';
+import Registro from '../components/Registro';
 
 const App = () => (
   <BrowserRouter>
