@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/styles/components/Login.scss';
 
 const Login = () => (
-  <section class='login'>
+  <section className='login'>
     <section className='login__container'>
       <h2>Inicia sesión</h2>
       <form className='login__container--form'>

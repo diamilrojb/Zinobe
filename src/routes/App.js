@@ -5,8 +5,8 @@ import AdmUsuarios from '../containers/AdmUsuarios';
 import Usuario from '../containers/Usuario';
 import Puntos from '../components/Puntos';
 import Gamification from '../components/Gamification';
-import Login from '../components/Login';
-import Registro from '../components/Registro';
+import Login from '../containers/Login';
+import Registro from '../containers/Registro';
 
 const App = () => (
   <BrowserRouter>
