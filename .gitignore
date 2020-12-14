@@ -299,3 +299,9 @@ Temporary Items
 .apdisk
 
 # End of https://www.toptal.com/developers/gitignore/api/reactnative
+
+
+        _cacache/
+        anonymous-cli-metrics.json
+        node-sass/
+        package-lock.json
