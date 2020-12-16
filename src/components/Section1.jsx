@@ -15,17 +15,17 @@ const Section1 = ( { _id, Nombre, Apellido, Telefono, Cedula, Cargo, Estado, Id_
       <div className='main-section1__user--data'>
         <p>Nombre: {Nombre+ " " + Apellido} </p>
         <p>Rol:  { Cargo }  </p>
-        <p>Equipo: </p>
+        <p>Nivel: </p>
       </div>
       <div className='main-section1__user--gamification'>
-      
+      <p>{ Puntos_disponibles}</p>
         <p>PUNTOS DISPONIBLES </p>
-        <p>{ Puntos_disponibles}</p>
+    
       </div>
       <div className='main-section1__user--gamification'>
-    
+      <p>{ Puntos_redimidos}</p>
         <p>PUNTOS REDIMIDOS </p>
-        <p>{ Puntos_redimidos}</p>
+    
       </div>
     </div>
   </section>
