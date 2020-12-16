@@ -3,15 +3,16 @@
     background-color: rgba(250, 250, 250, 0.3);
     height: 26.5rem;
     border-radius: 2rem;
-    margin: 4rem;
+    margin: 1rem;
     display: flex;
     justify-content: flex-start;
-    width: auto;
+    padding: 2rem 2rem 1rem 0;
+    width: 50rem;
     
 }
 
 .main-section1__user--img {
-    width: 15rem;
+    width: 11rem;
     margin: 0;  
 }
 
@@ -30,10 +31,16 @@
 .main-section1__user--gamification {
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 1.5rem;
+    margin-top: .5rem;
 }
 
 .main-section1__user--gamification p{
     margin-bottom: 1rem;
     
+}
+
+.main-section1__user--gamification span{
+    color: #F21B42;
+    font-size: 4rem;
+    font-weight: bold;
 }

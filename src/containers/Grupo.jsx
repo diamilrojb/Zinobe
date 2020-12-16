@@ -1,15 +1,15 @@
 import React, {useState, useEffect} from 'react';
-import Menu from '../components/Menu';
-import Logo from '../components/Logo';
-import Main from '../components/Main';
-import Section1 from '../components/Section1';
-import Section2 from '../components/Section2';
+//import Menu from '../components/Menu';
+//import Logo from '../components/Logo';
+//import Main from '../components/Main';
+//import Section1 from '../components/Section1';
+//import Section2 from '../components/Section2';
 import Section3 from '../components/Section3';
 import Section4 from '../components/Section4';
 import ContainerSection from '../components/ContainerSection';
 import Section6 from '../components/Section6';
 import EquipoSec1 from '../components/EquipoSec1';
-import Footer from '../components/Footer';
+//import Footer from '../components/Footer';
 import '../assets/styles/Usuario.scss';
 // import useInitialState from '../hooks/useInitialState';
 
