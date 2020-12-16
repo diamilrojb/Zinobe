@@ -10,19 +10,21 @@ import Registro from '../containers/Registro';
 import Equipos from '../components/Equipos';
 import Seniorities from '../components/Seniorities';
 import NotFound from '../containers/NotFound';
+import Grupos from '../containers/Grupo';
 
 const App = () => (
   <BrowserRouter>
     <Layout>
       <Switch>
         <Route exact path='/' component={Login} />
-        <Route exact path='/AdmUsuarios' component={AdmUsuarios} />
+        <Route exact path='/Admin' component={AdmUsuarios} />
         <Route exact path='/Usuario' component={Usuario} />
         <Route exact path='/Puntos' component={Puntos} />
         <Route exact path='/Gamification' component={Gamification} />
         <Route exact path='/Registro' component={Registro} />
         <Route exact path='/Equipos' component={Equipos} />
         <Route exact path='/Seniorities' component={Seniorities} />
+        <Route exact path='/Grupo' component={Grupos} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
